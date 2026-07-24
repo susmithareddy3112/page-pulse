@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Page Pulse</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>Page Pulse</h1>
+    <p class="subtitle">Paste a URL to get an instant audit.</p>
+
+    <form id="auditForm">
+      <input type="text" id="urlInput" placeholder="example.com" required />
+      <button type="submit">Audit</button>
+    </form>
+
+    <div id="status"></div>
+    <div id="report" class="report hidden"></div>
+  </main>
+
+  <footer>
+    Built for <a href="https://digitalheroesco.com" target="_blank" rel="noopener">Digital Heroes Training Task</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
