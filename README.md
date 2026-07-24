@@ -12,6 +12,7 @@ npm install
 npm start        # runs on http://localhost:3000
 npm test         # runs the Jest test suite
 ```
+live app:https://page-pulse-beige.vercel.app/
 
 No environment variables or API keys required.
 
